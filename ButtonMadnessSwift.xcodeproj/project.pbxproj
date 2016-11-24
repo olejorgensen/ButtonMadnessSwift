@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415968561D48AAAE00341E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415968551D48AAAE00341E4A /* AppDelegate.swift */; };
+		415968651D48ABAC00341E4A /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 415968631D48ABAC00341E4A /* ReadMe.txt */; };
+		415968661D48ABAC00341E4A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 415968641D48ABAC00341E4A /* Credits.rtf */; };
+		415968681D48ABD000341E4A /* MyWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415968671D48ABD000341E4A /* MyWindowController.swift */; };
+		4159686A1D48AC5700341E4A /* NSSegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415968691D48AC5700341E4A /* NSSegmentedControl+Extensions.swift */; };
+		4159686C1D48B04600341E4A /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159686B1D48B04600341E4A /* DropDownButton.swift */; };
+		4159686E1D48C20F00341E4A /* TestWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4159686D1D48C20F00341E4A /* TestWindow.xib */; };
+		415968721D48CAF200341E4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415968711D48CAF200341E4A /* MainMenu.xib */; };
+		415968761D48CE8700341E4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415968751D48CE8700341E4A /* Cocoa.framework */; };
+		417E023F1D48D91E002DBFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417E023E1D48D91E002DBFE0 /* Assets.xcassets */; };
+		41D9033E1D48D70800AC2055 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41D9033D1D48D70800AC2055 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		415968521D48AAAE00341E4A /* ButtonMadnessSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonMadnessSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415968551D48AAAE00341E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		415968631D48ABAC00341E4A /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		415968641D48ABAC00341E4A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		415968671D48ABD000341E4A /* MyWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWindowController.swift; sourceTree = SOURCE_ROOT; };
+		415968691D48AC5700341E4A /* NSSegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSSegmentedControl+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		4159686B1D48B04600341E4A /* DropDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = SOURCE_ROOT; };
+		4159686D1D48C20F00341E4A /* TestWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestWindow.xib; sourceTree = "<group>"; };
+		415968711D48CAF200341E4A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		415968751D48CE8700341E4A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		417E023E1D48D91E002DBFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A16F511D48D7E2005C7D69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D9033D1D48D70800AC2055 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4159684F1D48AAAE00341E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415968761D48CE8700341E4A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415968491D48AAAE00341E4A = {
+			isa = PBXGroup;
+			children = (
+				415968541D48AAAE00341E4A /* Sources */,
+				415968621D48AB5400341E4A /* Resources */,
+				41D9033C1D48D5F600AC2055 /* Frameworks */,
+				415968531D48AAAE00341E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415968531D48AAAE00341E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415968521D48AAAE00341E4A /* ButtonMadnessSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415968541D48AAAE00341E4A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				415968551D48AAAE00341E4A /* AppDelegate.swift */,
+				415968671D48ABD000341E4A /* MyWindowController.swift */,
+				4159686B1D48B04600341E4A /* DropDownButton.swift */,
+				415968691D48AC5700341E4A /* NSSegmentedControl+Extensions.swift */,
+			);
+			name = Sources;
+			path = ButtonMadnessSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		415968621D48AB5400341E4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41A16F511D48D7E2005C7D69 /* Info.plist */,
+				417E023E1D48D91E002DBFE0 /* Assets.xcassets */,
+				415968631D48ABAC00341E4A /* ReadMe.txt */,
+				415968641D48ABAC00341E4A /* Credits.rtf */,
+				41D9033D1D48D70800AC2055 /* InfoPlist.strings */,
+				415968711D48CAF200341E4A /* MainMenu.xib */,
+				4159686D1D48C20F00341E4A /* TestWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41D9033C1D48D5F600AC2055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415968751D48CE8700341E4A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415968511D48AAAE00341E4A /* ButtonMadnessSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4159685F1D48AAAE00341E4A /* Build configuration list for PBXNativeTarget "ButtonMadnessSwift" */;
+			buildPhases = (
+				4159684E1D48AAAE00341E4A /* Sources */,
+				4159684F1D48AAAE00341E4A /* Frameworks */,
+				415968501D48AAAE00341E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonMadnessSwift;
+			productName = ButtonMadnessSwift;
+			productReference = 415968521D48AAAE00341E4A /* ButtonMadnessSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4159684A1D48AAAE00341E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ole Jørgensen";
+				TargetAttributes = {
+					415968511D48AAAE00341E4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 4159684D1D48AAAE00341E4A /* Build configuration list for PBXProject "ButtonMadnessSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415968491D48AAAE00341E4A;
+			productRefGroup = 415968531D48AAAE00341E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415968511D48AAAE00341E4A /* ButtonMadnessSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415968501D48AAAE00341E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4159686E1D48C20F00341E4A /* TestWindow.xib in Resources */,
+				41D9033E1D48D70800AC2055 /* InfoPlist.strings in Resources */,
+				415968651D48ABAC00341E4A /* ReadMe.txt in Resources */,
+				415968661D48ABAC00341E4A /* Credits.rtf in Resources */,
+				417E023F1D48D91E002DBFE0 /* Assets.xcassets in Resources */,
+				415968721D48CAF200341E4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4159684E1D48AAAE00341E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4159686C1D48B04600341E4A /* DropDownButton.swift in Sources */,
+				4159686A1D48AC5700341E4A /* NSSegmentedControl+Extensions.swift in Sources */,
+				415968561D48AAAE00341E4A /* AppDelegate.swift in Sources */,
+				415968681D48ABD000341E4A /* MyWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4159685D1D48AAAE00341E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4159685E1D48AAAE00341E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		415968601D48AAAE00341E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppKit.ButtonMadnessSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		415968611D48AAAE00341E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppKit.ButtonMadnessSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4159684D1D48AAAE00341E4A /* Build configuration list for PBXProject "ButtonMadnessSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4159685D1D48AAAE00341E4A /* Debug */,
+				4159685E1D48AAAE00341E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4159685F1D48AAAE00341E4A /* Build configuration list for PBXNativeTarget "ButtonMadnessSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415968601D48AAAE00341E4A /* Debug */,
+				415968611D48AAAE00341E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4159684A1D48AAAE00341E4A /* Project object */;
+}
